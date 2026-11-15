@@ -3,9 +3,7 @@
 **Гитара в любом строе: 157 строев — и отдельный гайд к каждому.**
 
 Одностраничное приложение целиком в одном `index.html`: без сборки на сервере, без зависимостей,
-без интернета. Открыл файл — работает; выложил на GitHub Pages — работает так же.
-
-🌐 **Сайт:** `https://<твой-ник>.github.io/stroy-guide/`
+без интернета.
 
 ---
 
@@ -77,17 +75,6 @@ npm i && npx playwright install chromium && npx playwright install-deps chromium
 python3 -m http.server 8000 --bind 0.0.0.0 &   # в другом терминале
 npm run check
 ```
-
-## Публикация на GitHub Pages
-
-Репозиторий уже готов к публикации: `index.html` лежит в корне, `.nojekyll` отключает Jekyll.
-
-1. **Settings → Pages**
-2. **Source:** `Deploy from a branch`
-3. **Branch:** `main`, папка `/ (root)` → **Save**
-4. Через минуту сайт доступен по адресу `https://<ник>.github.io/stroy-guide/`
-
-Обновление сайта = новый коммит в `main`. Пересобрал `index.html` → запушил → через минуту на сайте.
 
 ## Технологии
 
